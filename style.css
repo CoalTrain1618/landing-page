@@ -1,0 +1,156 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.header {
+    display: flex;
+    background-color: aqua;
+    flex-grow: 1;
+    max-height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(15, 23, 36);
+    padding: 10px 0;
+}
+
+.about-container {
+    display: flex;
+    background-color: azure;
+    flex-grow: 4;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 23, 36);
+    padding: 20px;
+    gap: 20px;
+}
+
+.about-left {
+    max-height: 200px;
+    max-width: 350px;
+    color: aliceblue;
+}
+
+.happybrain {
+    max-height: 200px;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.aboutsignup {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.mid-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 230, 230);
+    flex-grow: 5;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 400px;
+    padding: 10px;
+}
+
+.pillarcards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    margin-top: -20px;
+}
+
+.pillar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    text-wrap: wrap;
+    justify-content: center;
+    max-width: 200px;
+    text-align: center;
+}
+
+#titletwo {
+    margin-top: -20px;
+}
+
+.image-box {
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.quote-container {
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    flex-grow: 4;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    padding: 20px;
+    text-wrap: wrap;
+    width: 400px;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sign-up {
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    flex-grow: 3.5;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.contianersign {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(15, 23, 36);
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#signpara {
+    color: azure;
+    font-size: large;
+}
+
+#embarkbutton {
+    border-radius: 10px;
+    max-width: 180px;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(15, 23, 36);
+    color: azure;
+    justify-content: center;
+}
+
+.logo {
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 50px;
+}
+
+.headlinks {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.headlinks a {
+    text-decoration: none;
+}
+
